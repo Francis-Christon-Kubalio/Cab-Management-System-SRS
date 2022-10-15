@@ -1,0 +1,155 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\qc\ul\b\f0\fs48\lang9 Cab Management System\par
+
+\pard\sa200\sl276\slmult1\ulnone\fs40 Software Requirement Specification(SRS Doc)\par
+\ul\b0\fs36 Authentication page\ulnone\fs32\par
+
+\pard\sa200\sl276\slmult1 1. User Registration\par
+
+\pard\li720\sa200\sl276\slmult1\fs28 In the cab management system in B2C perspective user or the customer is one of the main  element and the cab management system should be effective in providing the easy user registration in the application. In this system the user can easily register by entering his name, email Id, mobile no:  in the given fileds. The system saves the details entered in to the database and then the system should send an OTP to the email of user and the mobile no: given. There should also be a function to resend OTP if not successfully working. By entering the OTP  and clicking done icon the user can create Password by given the password in password and Confirm password fields the user can effectively register in the cab management system and the account creation is completed. There should also be a function to resend OTP if not successfully working.\par
+
+\pard\sa200\sl276\slmult1\fs32 2. Driver Registration\par
+
+\pard\li720\sa200\sl276\slmult1\fs28 In the cab management system in a B2B perspective the driver is the most important part of the cab management system. It is very evident that in the cab management system car driver is not just a driver but also a bussiness owner of his service to the customers. The registration of driver is a complex task since taking verified drivers is very important. The driver can do first step of registeration by into the system by  entering his  name , Id Proof Name, Email Id , phone number. After entering these details the driver recieves an OTP in email and mobile and he can enter the OTP and click done to go to the next registration form. There should also be OTP resend option. In that the driver has to re enter his name, email Id, mobile number, Aadhar number, driving license number, car insurance number and the details of the car( 5 seater, 7 seater, sedan or normal, XUV). Insurance type, Taxi card number etc into the system. After all this information entering into the concerned fields the driver can click done. After this the driver recieves an email for uploading the photo, documents in specified format. All this details go the database and after succesfull verification the driver recieves verified cab certificate and the Cab ID number and details.\par
+
+\pard\sa200\sl276\slmult1\fs36 3. User Login\par
+
+\pard\li720\sa200\sl276\slmult1\fs28 The successfully registered users can login after entering his email id/ mobile no: and the password. After succesfull login the user can go to the homepage of user management system.\par
+\fs32\par
+
+\pard\sa200\sl276\slmult1 4. Driver Login\par
+
+\pard\li720\sa200\sl276\slmult1\fs28 The successfully registered users can login after entering his email id/ mobile no: , Cab verified ID, and the password. After succesfull login the user can go to the homepage of driver management system.\par
+
+\pard\sa200\sl276\slmult1\fs32 5.Forgot password\par
+
+\pard\li720\sa200\sl276\slmult1\fs28 The user or the driver can use this option if they have forget their password. They can use the registered email Id to reset their password. Using the password reset link send in the email, the user can reset the password by giving New password and Confirm password in the concerned fields.\par
+
+\pard\sa200\sl276\slmult1\fs32\par
+\ul\fs36 Home Page\par
+\ulnone\fs32 6. Search Page\par
+
+\pard\li720\sa200\sl276\slmult1\fs28 The searching is effectively used by users who need cab services. The user can search for the cab service by giving the pickup point, destination, 4 seater or 7 seater( this is not mandatory to give). The user can use GPS mode to enter the pick up point.\par
+
+\pard\sa200\sl276\slmult1\fs32 7. Display page.\par
+
+\pard\li720\sa200\sl276\slmult1\fs28 This page will show the near by cars available of different types including normal services, speed/fast services, 4 seater, 7 seater, time of arrival and the individual rates for the particular service will be provided in the display page.\par
+
+\pard\sa200\sl276\slmult1\fs32 8. Booking and Confirmation page.\par
+
+\pard\li720\sa200\sl276\slmult1\fs28 The user can select the service according to their convenience that displayed in the display page after checking the details of the car, rate, driver, time of arrival etc and then click confirm and go to the payment page. The user can also use coupons and codes if available before going to the payment confirmation page.\par
+
+\pard\sa200\sl276\slmult1\fs32 9. Coupons and Discount page:\par
+
+\pard\li720\sa200\sl276\slmult1\fs28 The user can use this page to get discount on ride etc. if applicable offers are there.\par
+
+\pard\sa200\sl276\slmult1\ul\fs36 Payment page\par
+\ulnone\fs32 10. Payment\par
+
+\pard\li720\sa200\sl276\slmult1 This function should enable the user to select the most suitable payment mode for the user. It can include Net Banking, UPI, Credit Card, Direct Cash payment. If  Net banking and early cash payment is done there should also be cancellation option. Help button related to the payment details can also be attached with a link below. \par
+
+\pard\sa200\sl276\slmult1 11. Payment Confirmation.\par
+
+\pard\li720\sa200\sl276\slmult1 This function enables the user to finally book the cab after clicking on the payment confirmation fucntion. After payment confirmation is done it should enable a cab booking confirmation and confirmation text message being send to the user.\par
+
+\pard\sa200\sl276\slmult1 12. Driver booking page.\par
+
+\pard\li720\sa200\sl276\slmult1 This fuction is build for the driver and this facilitates in making the connection between the user and the driver. The driver should get the take down point of the user, Booking unique ID generated, active contact of the user and the rate for which the ride is being scheduled. There should also be a review option for the driver on whether to take the drive or not.\par
+
+\pard\sa200\sl276\slmult1 13. Driver Confirmation Page.\par
+
+\pard\li720\sa200\sl276\slmult1 This page confirms about the driver and the exact time of arrival of the driver to the user.\par
+
+\pard\sa200\sl276\slmult1 14. Cancellation page.\par
+
+\pard\li720\sa200\sl276\slmult1 This function is a recall option for the user and also driver(But drivers arent allowed to take that option beyond a limit which results in blacklist). This function enables the user to cancel the drive if they want and the user should also be able to get the refund if the ride is not done if it was an early payment.\par
+
+\pard\sa200\sl276\slmult1 15. Help Page.\par
+
+\pard\li720\sa200\sl276\slmult1 This page gives the details on how to make the payment(learn more option)\par
+
+\pard\sa200\sl276\slmult1\ul\fs36 Tracking page.\par
+\ulnone\fs32 16.Tracking page for user:\fs36\par
+
+\pard\li720\sa200\sl276\slmult1\fs28 This function helps the user in finding the live location of the driver and a map will be attached to this page.\par
+
+\pard\sa200\sl276\slmult1\fs32 17. Tracking page for driver.\par
+
+\pard\li720\sa200\sl276\slmult1\fs28 This function helps the driver in finding the exact place where the user is standing.\par
+
+\pard\sa200\sl276\slmult1\fs32 18. Chat option.\par
+
+\pard\li720\sa200\sl276\slmult1\fs28 This function is mutual for user and driver in communicate about location , landmark etc.\par
+
+\pard\sa200\sl276\slmult1\fs32 19. Call Option.\par
+
+\pard\li720\sa200\sl276\slmult1\fs28 This function helps the user as well as the driver to communicate about location , landmark etc.\par
+
+\pard\sa200\sl276\slmult1\ul\fs36 Support Page\b\fs28\par
+\ulnone\b0\fs32 20. Support for user\par
+
+\pard\li720\sa200\sl276\slmult1\fs28 This page helps the user in raising help, support, complaints, refund option etc with the cab service.\par
+
+\pard\sa200\sl276\slmult1\fs32 21. Support for the user\fs28\par
+
+\pard\li720\sa200\sl276\slmult1 This page is a support  for the drivers to raise invoice, and other related things to the service providing company.\par
+
+\pard\sa200\sl276\slmult1\par
+\ul\fs36 Account Settings.\fs28\par
+\ulnone\fs32 22.User Profile/Account\fs28\par
+
+\pard\li720\sa200\sl276\slmult1 This function enables the user edit the profile and select payment modes etc.\par
+
+\pard\sa200\sl276\slmult1\fs32 23. Driver Profile/Account\par
+
+\pard\li720\sa200\sl276\slmult1\fs28 This function enables the driver to edit the profile, add card details, invoice option, car specification details etc.\par
+----------------------------------------------------------------------------------------\par
+
+\pard\sa200\sl276\slmult1\ul\par
+\ulnone\fs32 24. Rating option.\fs28  \par
+
+\pard\li720\sa200\sl276\slmult1 This function helps the user to rate about the ride and driver.\par
+
+\pard\sa200\sl276\slmult1\fs32 25. Music playing option.\fs28\par
+
+\pard\li720\sa200\sl276\slmult1 This function is a AI driven system which helps the user to select the music before he takes the ride.\par
+
+\pard\sa200\sl276\slmult1\fs32 26. Pre Booking Option\fs28\par
+
+\pard\li720\sa200\sl276\slmult1 This function enables the user to prebook a ride if he wants.\par
+
+\pard\sa200\sl276\slmult1\fs32 27. Shopping Option\fs28\par
+
+\pard\li720\sa200\sl276\slmult1 This function enables the user to prebook a shopping option if he wants.\par
+
+\pard\sa200\sl276\slmult1\fs32 28. Chatbot.\fs28\par
+
+\pard\li720\sa200\sl276\slmult1 This function is a AI driven chatbot which helps the user, driver get information and help.\par
+
+\pard\sa200\sl276\slmult1\fs32 29.  2FA\fs28\par
+
+\pard\li720\sa200\sl276\slmult1 This function is used for high security which ask for 2 factor authentication from the customer(user and driver)\par
+
+\pard\sa200\sl276\slmult1\fs32 30. Hotel Booking\fs28\par
+
+\pard\li720\sa200\sl276\slmult1 This function enables the user and driver to review any hotel if they want that kind of service\par
+
+\pard\sa200\sl276\slmult1\par
+\par
+\par
+\fs32\par
+\par
+\fs36\par
+\fs28\par
+\ul\b\fs32\par
+\par
+\ulnone\b0\par
+
+\pard\li720\sa200\sl276\slmult1\par
+
+\pard\sa200\sl276\slmult1\par
+\par
+\ul\b\fs48\par
+}
+ 
